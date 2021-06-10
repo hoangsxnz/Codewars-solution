@@ -1,4 +1,5 @@
 from math import *
+
 def find_Kprimes(n):
     res, factor = [], 2
     while factor <= int(floor(sqrt(n))):
